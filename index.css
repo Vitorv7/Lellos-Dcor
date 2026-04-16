@@ -2,4 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header_top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icone_instagram{
+  width: 30px;
+  height: 30px;
+}
+
+.container_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.list a {
+
 }
